@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Laba2</string>
+    <string name="msg_hint">Enter text</string>
+    <string name="text1">Hello, user!</string>
+    <string name="text2">Enter some text below and click NEXT:</string>
+    <string name="button_label">NEXT</string>
+    <string name="toast1">keyboard is showing</string>
+    <string name="toast2">screen rotation</string>
+</resources>

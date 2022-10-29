@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Лаба2</string>
+    <string name="msg_hint">Введите текст</string>
+    <string name="text1">Привет, пользователь!</string>
+    <string name="text2">Введи текст ниже и нажми ДАЛЕЕ:</string>
+    <string name="button_label">ДАЛЕЕ</string>
+    <string name="toast1">появилась клавиатура</string>
+    <string name="toast2">поворот экрана</string>
+</resources>
