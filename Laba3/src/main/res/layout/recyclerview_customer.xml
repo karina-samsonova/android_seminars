@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1,2,3,4">
+
+        <TableRow>
+            <TextView
+                android:id="@+id/textViewId"
+                android:layout_width="30dp"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:gravity="start"
+                android:text = "0"
+                android:layout_column="1"/>
+
+            <TextView
+                android:id="@+id/textViewSurname"
+                android:layout_width="100dp"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:gravity="start"
+                android:text = "Ivanov"
+                android:layout_column="1"/>
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="100dp"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:gravity="start"
+                android:text = "Ivan"
+                android:layout_column="1"/>
+
+            <TextView
+                android:id="@+id/textViewAddress"
+                android:layout_width="120dp"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:gravity="start"
+                android:text = "Moscow City"
+                android:layout_column="1"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>

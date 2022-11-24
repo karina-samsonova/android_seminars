@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1,2,3,4">
+
+        <TableRow>
+            <TextView
+                android:id="@+id/textViewId"
+                android:layout_width="30dp"
+                android:textSize="14sp"
+                android:padding="10dp"
+                android:gravity="start"
+                android:text = "0"
+                android:layout_column="1"/>
+
+            <TextView
+                android:id="@+id/textViewDate"
+                android:layout_width="100dp"
+                android:textSize="14sp"
+                android:padding="10dp"
+                android:gravity="start"
+                android:text = "20/09/2020"
+                android:layout_column="2"/>
+
+            <TextView
+                android:id="@+id/textViewStuff"
+                android:layout_width="90dp"
+                android:textSize="14sp"
+                android:padding="10dp"
+                android:gravity="start"
+                android:text = "0"
+                android:layout_column="3"/>
+
+            <TextView
+                android:id="@+id/textViewCustomer"
+                android:layout_width="90dp"
+                android:textSize="14sp"
+                android:padding="10dp"
+                android:gravity="start"
+                android:text = "0"
+                android:layout_column="4"/>
+
+            <TextView
+                android:id="@+id/textViewStatus"
+                android:layout_width="100dp"
+                android:textSize="14sp"
+                android:padding="10dp"
+                android:gravity="start"
+                android:text = "preparation"
+                android:layout_column="5"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
